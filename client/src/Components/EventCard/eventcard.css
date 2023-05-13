@@ -1,0 +1,7 @@
+.eventcard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 60px;
+    border: black;
+}

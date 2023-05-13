@@ -11,8 +11,8 @@ export default function HeaderBar() {
             <span className="logo"><Person />NEIGHBORS <Person /> SOCIAL <Person /></span>
         <div className="headerbarCenter"></div>
             <div className="Searchbar">
-                <Search className="searchIcon"/>
-                <input placeholder="Search ... " className="searchInput"></input>
+                
+                
             </div>
         <div className="headerbarRight">
         <div className="headerbarLinks">

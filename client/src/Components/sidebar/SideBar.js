@@ -1,5 +1,5 @@
 import "./sidebar.css" 
-import { HelpOutline, RssFeed, WorkOutline , Event, School, QuestionAnswer, ReportProblem, Fireplace, Handshake, RailwayAlert}  from "@mui/icons-material"
+import { HelpOutline, RssFeed, WorkOutline , Event, School, ReportProblem, Fireplace, Handshake, RailwayAlert}  from "@mui/icons-material"
 
 export default function SideBar() {
   return (
@@ -24,30 +24,26 @@ export default function SideBar() {
             <Event className="sidebarIcon"/>
             <span className="sidebarListItemtext">Event</span>
           </li>
-          <li className="sidebarListItem">
+          {/* <li className="sidebarListItem">
             <School className="sidebarIcon"/>
             <span className="sidebarListItemtext">School</span>
-          </li>
-          <li className="sidebarListItem">
-            <QuestionAnswer className="sidebarIcon"/>
-            <span className="sidebarListItemtext">Chat</span>
-          </li>
+          </li> */}
           <li className="sidebarListItem">
             <ReportProblem className="sidebarIcon"/>
             <span className="sidebarListItemtext">Danger/issue</span>
           </li>
-          <li className="sidebarListItem">
+          {/* <li className="sidebarListItem">
             <Fireplace className="sidebarIcon"/>
             <span className="sidebarListItemtext">Fire</span>
-          </li>
+          </li> */}
           <li className="sidebarListItem">
             <Handshake className="sidebarIcon"/>
             <span className="sidebarListItemtext">Meet up</span>
           </li>
-          <li className="sidebarListItem">
+          {/* <li className="sidebarListItem">
             <RailwayAlert className="sidebarIcon"/>
             <span className="sidebarListItemtext">Travel Delay</span>
-          </li>
+          </li> */}
         </ul>
         <button className="sidebarButton">Show More ..</button>
         <hr className="sidebarHr"/>
