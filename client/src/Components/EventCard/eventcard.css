@@ -5,3 +5,9 @@
     height: 60px;
     border: black;
 }
+.appImage{
+    
+    float: right;
+    width: 60%;
+    height: 100px;
+}

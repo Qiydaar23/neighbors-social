@@ -2,10 +2,13 @@ import React from 'react'
 import EventCard from '../EventCard/EventCard';
 import './events.css'
 import { useState, useEffect } from 'react'
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
+
 
 export default function Events() {
+  
   const [events, setEvents] = useState([])
+
   useEffect(() => {
     fetch("/events").then((response)=>{
       console.log(response)

@@ -1,0 +1,10 @@
+#navcss>li{
+    /* display: flex; */
+   float: left;
+   
+}
+#navcss{
+    /* display: flex; */
+   
+   margin-right: 20%;
+}

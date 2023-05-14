@@ -1,25 +1,20 @@
 import "./Headerbar.css"
-import {Person, Chat} from "@mui/icons-material"
+import {Person, Chat, } from "@mui/icons-material"
 import { Search , Notifications} from "@mui/icons-material"
+import Navbar from "../Navbar/Navbar"
 
 
 
 export default function HeaderBar() {
   return (
-    <div className="headerbarContainer">
+    <div className="headerbarContainer"> 
         <div className="headerbarLeft"></div>
-            <span className="logo"><Person />NEIGHBORS <Person /> SOCIAL <Person /></span>
+            <span className="logo"><Person />Event <Person /> SOCIAL </span>
         <div className="headerbarCenter"></div>
-            <div className="Searchbar">
-                
-                
+            <div>
+            <Navbar></Navbar>
             </div>
-        <div className="headerbarRight">
-        <div className="headerbarLinks">
-                <span className="headerbarLink">Homepage</span>
-                <span className="headerLink">Feed</span>
-        </div>        
-        </div>
+        
         <div className="headerbarIcon">
             <div className="headerIconItem">
                 <Person />

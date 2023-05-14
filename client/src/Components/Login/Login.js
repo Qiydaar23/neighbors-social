@@ -20,6 +20,7 @@ function Login({setUser}) {
       return response.json() 
 
     }).then((data)=>{
+      localStorage.setItem("user",JSON.stringify(data))
       setUser(data)
     })
      .catch((error)=>{
