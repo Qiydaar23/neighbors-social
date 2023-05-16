@@ -5,14 +5,14 @@ import Navbar from "../Navbar/Navbar"
 
 
 
-export default function HeaderBar() {
+export default function HeaderBar({setUser}) {
   return (
     <div className="headerbarContainer"> 
         <div className="headerbarLeft"></div>
-            <span className="logo"><Person />Event <Person /> SOCIAL </span>
+            <span className="logo"><Person />EVENTS <Person /> SOCIAL </span>
         <div className="headerbarCenter"></div>
             <div>
-            <Navbar></Navbar>
+            <Navbar setUser ={setUser}></Navbar>
             </div>
         
         <div className="headerbarIcon">

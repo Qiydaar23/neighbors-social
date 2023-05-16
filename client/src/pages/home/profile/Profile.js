@@ -8,12 +8,12 @@ import Events from '../../../Components/events/Events'
 
 
 
-export default function Profile() {
+export default function Profile({setUser}) {
   return (
     <>
-    <HeaderBar />
+    <HeaderBar setUser ={setUser}/>
     <div className='profile'>
-        <SideBar/>
+        <SideBar />
         <div className='profileRight'>
           <Events />
         </div>

@@ -1,0 +1,42 @@
+.TicketCard {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .TicketCard-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .Event-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
+  .Event-image {
+    margin: 20px 0;
+    /* add styles for the event image */
+  }
+  
+  .Event-date {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+  
+  .Event-description {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+  }
+  

@@ -24,7 +24,8 @@ export default function Post({post}) {
   // const handleTicket =()=>{
   //   setTicket(isTicket ? ticket-1: ticket+1)
   //   setIsTicket(!isTicket)
-
+  console.log("logginPost")
+  console.log(post)
   const handleLike =()=>{
     setlike(islike ? like-1: like+1)
     setIslike(!islike)
@@ -42,7 +43,7 @@ export default function Post({post}) {
               <MoreVert />
           </div>
           <div className="postCenter">
-            <span className="postText">{post.desc}</span>
+            <span className="postText">{post.description}</span>
             <img  className = "postImg"src = {post.photo} alt = ""/>
           </div>
           <div className="postBottom"></div>

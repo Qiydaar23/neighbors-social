@@ -1,10 +1,23 @@
-#navcss>li{
-    /* display: flex; */
-   float: left;
-   
-}
-#navcss{
-    /* display: flex; */
-   
-   margin-right: 20%;
-}
+#navcss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #navcss li {
+    margin-right: 20px;
+  }
+  
+  #navcss li:last-child {
+    margin-right: 0;
+  }
+  
+  #navcss a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  

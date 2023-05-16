@@ -7,6 +7,8 @@ import Layout from "./Components/layout/Layout";
 import EventDetail from "./Components/Event/EventDetail";
 import Navbar from "./Components/Navbar/Navbar";
 import CreateEvent from "./Components/CreateEvent/CreateEvent";
+import Tickets from "./Components/Tickets/Tickets";
+import Signup from "./Components/Signup/Signup";
 
 
 
@@ -30,7 +32,9 @@ function App() {
       <Routes>
         <Route path="/newEvent" element={<CreateEvent />} />
         <Route path="/event/:id" element= {<EventDetail />} />
-        <Route path="*" element={<Profile />} />
+        
+        <Route path="/tickets" element={<Tickets />} />
+        <Route path="*" element={<Profile setUser ={setUser}/>} />
         {/* <Route path="about" element={<About />} /> */}
         {/* <Route path="dashboard" element={<Dashboard />} /> */}
         {/* <Route path="*" element={<NoMatch />} /> */}
@@ -38,7 +42,20 @@ function App() {
     </Routes>
       </Layout>
 
-      : <Login setUser ={setUser} />
+      :
+      
+      
+      <Routes> 
+
+      
+      <Route path="/signup" element={<Signup setUser ={setUser} />} />
+      <Route path="*" element={<Login setUser ={setUser} />} />
+
+      </Routes>
+
+
+
+
     }
   </div> 
   )

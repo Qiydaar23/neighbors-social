@@ -24,7 +24,7 @@ export default function EventDetail() {
   return (
     <div>
       
-      <Button onClick={handleDelete} variant="contained">Delete event</Button>
+      <Button onClick={handleDelete} variant="contained">Purchase event</Button>
     </div>
   )
 }
